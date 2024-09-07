@@ -1,0 +1,366 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+    background: linear-gradient(to right, rgba(5, 5, 5, 0.669), transparent), url(img/home_bg.jpeg);
+    z-index: 2;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header .logo img {
+  width: 10%;
+}
+
+nav ul li {
+    display:inline;
+    margin: 0 10px ;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+h1{
+    margin: 10px;
+    font-size: 55px;
+}
+span{
+    color: rgb(231, 200, 45);
+}
+
+.center p {
+    margin: 10px;
+}
+
+.center button{
+    background: transparent;
+    border: 2px solid white;
+    box-shadow: #eee;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.center button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover {
+    background-color: rgb(255, 221, 0);
+}
+/* end header*/
+
+/* start section2*/
+section{
+    height: 90vh;
+    background-color: white;
+    font-family: sans-serif;
+    
+}
+
+section .title{
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+}
+
+section div p{
+    margin-top: 20px;
+}
+
+.container{
+    display:flex;
+}
+
+.container .content{
+    align-items: start;
+    margin-left: 100px;
+    margin-top: 80px;
+    line-height: 2.5em;
+}
+
+.container .content button{
+   margin-top:20px ;
+   width: 150px;
+   height: 50px;
+   background-color: black;
+   color: white;
+   border-radius:20px ;
+}
+
+.container .img2{
+    margin: 90px;
+}
+
+/* end section2*/
+
+/* start section3*/
+.section3{
+    height:80vh ;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.title{
+    color: #eee;
+    padding-top: 20px;
+}
+
+.section3 .title h2{
+    color: rgb(255, 200, 0);
+}
+
+.cards{
+    font-family: sans-serif;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.card{
+    margin: 10px;
+}
+
+.line{
+    text-decoration: line-through;
+    color: white;
+}
+
+/* end section3*/
+
+/* start section4*/
+.section4{
+    height: 100vh;
+    background-color: rgb(252, 241, 227);
+}
+
+.section4 .title{
+    color: black;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+
+.section4 .container{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.section4 .left h3 , .right h3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section4 .left, .section4 .right {
+    flex: 1; 
+    margin: 10px;
+}
+
+.section4 .left > div, .section4 .right > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.section4 .left img, .section4 .right img {
+    margin-right: 20px; 
+    width: 60px;
+}
+
+.section4 .right img {
+    border-radius: 50%;
+}
+
+.section4 button {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: rgb(237, 183, 45);
+    border-radius: 20px;
+    border-color: rgb(237, 183, 45);
+    margin-left: 650px;
+}
+
+.section4 button a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.section4 .left > div h3,
+.section4 .left > div span,
+.section4 .right > div h3,
+.section4 .right > div span {
+    margin-left: 5px;
+}
+
+.container .left , .right  p{
+    align-items: start;
+}
+
+/* end section4 */
+
+/* start section5 */
+.section5{
+    height: 30vh;
+    background-image: url(img/daytime_bg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section5 .meals{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+/* end section5 */
+
+/* start section6 */
+.section6{
+    height: 80vh;
+    background-image: url(img/offer-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section6 .textsection{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.section6 .photos .rowone{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section6 .photos .rowtwo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section6 .photos img{
+    border-radius: 20px;
+   
+}
+/* end section6 */
+
+/* start footer */
+footer{
+    background-color:rgb(250, 243, 232);
+    height: 50vh;
+    padding: 80px;
+    font-family: sans-serif;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footercontainerone{
+    color: rgb(3, 3, 20);
+    padding: 10px;
+}
+
+.footercontainerone p i {
+    color: rgb(212, 198, 44);
+    margin: 10px;
+}  
+
+.footercontainerone p {
+    color: rgb(175, 175, 173);
+}  
+
+.footercontainerone .WORKING p{
+    padding:10px;
+}
+
+.footercontainerone,
+.footercontainertwo {
+    flex-basis: 25%; 
+}
+
+.footercontainerone > div {
+    margin-bottom: 20px;
+}
+
+.iconfooter {
+    font-size: 24px;
+}
+
+.footercontainertwo form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footercontainertwo input ,
+.footercontainertwo textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(239, 236, 236, 0.906);
+}
+
+.footercontainertwo .submit-button{
+    width: 50%;
+    color: white;
+    background-color: rgb(227, 184, 45);
+    border-radius: 10px;
+  
+}
+
+.lastsection{
+    background-image: url(img/offer-background.jpg);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    height: 5vh;
+    padding: 15px;
+}
+
+/* end footer */
